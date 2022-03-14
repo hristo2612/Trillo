@@ -2,22 +2,8 @@
   height: 3.25rem;
 }
 
-.search {
-  &__input {
-
-  }
-
-  &__button {
-
-  }
-
-  &__icon {
-    width: 2rem;
-    height: 2rem;
-  }
-}
-
 .header {
+
   &__nav {
 
   }
@@ -44,5 +30,20 @@
     &-name {
 
     }
+  }
+}
+
+.search {
+  &__input {
+
+  }
+
+  &__button {
+
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
   }
 }
