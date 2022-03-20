@@ -1,6 +1,7 @@
 .logo {
   height: 3.25rem;
   margin-left: 3rem;
+  filter: invert(46%) sepia(6%) saturate(641%) hue-rotate(302deg) brightness(88%) contrast(87%);
 }
 
 .header {
@@ -41,7 +42,7 @@
     position: absolute;
     top: 1.5rem;
     right: 1.1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     height: 1.75rem;
     width: 1.75rem;
     border-radius: 50%;
