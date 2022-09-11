@@ -1,6 +1,6 @@
 # Trillo
 
-<h2><a href="https://hristo2612.github.io/trillo">LIVE PREVIEW</a></h2>
+<h2><a href="https://hristo2612.github.io/Trillo">LIVE PREVIEW</a></h2>
 
 This project is solely for learning purposes.
 
@@ -10,9 +10,9 @@ Course taken from Udemy: <a href="https://www.udemy.com/course/advanced-css-and-
 
 ## Installation
 
-Clone this repo `git clone https://github.com/hristo2612/trillo.git`
+Clone this repo `git clone https://github.com/hristo2612/Trillo.git`
 
-Change directory to `cd trillo`
+Change directory to `cd Trillo`
 
 Install using npm `npm i`
 
