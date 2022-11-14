@@ -10,7 +10,7 @@
 .header {
   height: 7rem;
   background-color: var(--color-light);
-  border-bottom: 2px solid var(--color-grey-light-2);
+  border-bottom: var(--border-bottom);
 }
 
 .content {
@@ -25,5 +25,4 @@
 .main {
   background-color: var(--color-light);
   flex: 1;
-  height: 80rem;
 }

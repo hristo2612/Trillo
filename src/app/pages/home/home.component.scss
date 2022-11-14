@@ -10,7 +10,7 @@
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid var(--color-grey-light-2);
+  border-bottom: var(--border-bottom);
 
   &__heading {
     font-size: 2.25rem;
@@ -64,4 +64,25 @@
     font-size: 1rem;
     text-transform: uppercase;
   }
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--border-bottom);
+}
+
+.description {
+  font-size: 1.5rem;
+  background-color: var(--color-light);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  background-color: blue;
+  flex: 1;
 }
