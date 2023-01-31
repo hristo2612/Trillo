@@ -1,3 +1,5 @@
+@import '../../../scss/base';
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -10,11 +12,24 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
+    @media only screen and (max-width: $bp-medium) {
+      flex: 1;
+    }
+
     &:not(:last-child) {
       margin-bottom: 0.5rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -48,12 +63,16 @@
     color: var(--color-grey-light-1);
     text-decoration: none;
     text-transform: uppercase;
-    display: block;
     padding: 1.5rem 3rem;
     z-index: 10;
 
     display: flex;
     align-items: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      justify-content: center;
+      padding: 1.5rem 0;
+    }
   }
 
   &__icon {
@@ -69,4 +88,8 @@
   padding: 2.4rem;
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }

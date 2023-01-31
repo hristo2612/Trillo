@@ -1,3 +1,5 @@
+@import '../../../scss/base';
+
 .gallery {
   display: flex;
 
@@ -72,6 +74,10 @@
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: var(--border-bottom);
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+  }
 }
 
 .description {
@@ -81,6 +87,11 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 1rem;
+    margin-right: 2rem;
+  }
 }
 
 .user-reviews {
@@ -97,6 +108,11 @@
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
 
   &__text {
     position: relative;
@@ -152,6 +168,10 @@
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.5rem 0;
+  }
 
   &__book-now {
     font-size: 1.9rem;
