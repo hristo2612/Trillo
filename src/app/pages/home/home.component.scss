@@ -148,3 +148,57 @@
     z-index: 1;
   }
 }
+
+.cta {
+  padding: 3.5rem 0;
+  text-align: center;
+
+  &__book-now {
+    font-size: 1.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+}
+
+.btn {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(to right, var(--color-danger), var(--color-danger-light));
+  color: var(--color-light);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  &__visible {
+    display: inline-block;
+    padding: 2rem 7.5rem;
+    transition: all 0.2s;
+  }
+
+  &__invisible {
+    display: inline-block;
+    position: absolute;
+    padding: 2rem 7.5rem;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    background-image: linear-gradient(to left, var(--color-danger), var(--color-danger-light));
+  }
+
+  &:hover &__visible {
+    transform: translateY(100%);
+  }
+
+  &:hover &__invisible {
+    top: 0;
+  }
+}
